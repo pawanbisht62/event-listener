@@ -71,6 +71,8 @@ pub mod pallet {
 			// https://docs.substrate.io/main-docs/build/origins/
 			let who = ensure_signed(origin)?;
 
+
+			
 			// Update storage.
 			<Something<T>>::put(something);
 
